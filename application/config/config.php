@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/codeingniter-bootstrap/';
+$config['base_url']	= 'http://localhost/codeigniter-bootstrap-/';
 
 /*
 |--------------------------------------------------------------------------

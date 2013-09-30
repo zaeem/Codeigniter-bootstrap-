@@ -9,7 +9,8 @@ class settings extends CI_Controller{
 
 		$this->load->model('SettingsModel');
 		$this->mckey = $this->SettingsModel->GetMailchimpApi();
-		$this->mcList = $this->SettingsModel->GetMailchimpList();
+		//$this->mckey = "63713f59c1fb39cfb4e58665cf1c381c-us6";
+		$this->mcList = $this->SettingsModel->GetMailchimpList($this->mckey);
 		$this->mdkey = $this->SettingsModel->GetMD();
 	}
 	public function index(){

@@ -50,8 +50,8 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'zaqxsw';
-$db['default']['database'] = 'baseapplication';
+$db['default']['password'] = '';
+$db['default']['database'] = 'codeigniter-bootstrap';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

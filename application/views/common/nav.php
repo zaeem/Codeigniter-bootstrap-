@@ -14,6 +14,7 @@
             </p>
             <?php } ?>
             <ul class="nav">
+              <li><a href="<?php echo base_url('index.php/subscribe'); ?>">Subscribe</a></li>
               <li><a href="<?php echo base_url('index.php/common/settings'); ?>">Settings</a></li>
             </ul>
           </div><!--/.nav-collapse -->
